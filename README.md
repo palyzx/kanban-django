@@ -1,28 +1,41 @@
 ASSIGNMENT
 Kanban
 
-Path: Data Science with Python Unit: Web Development, Part II
-Django REST Framework + Ajax
+Path: Data Science with Python 
+Unit: Web Development, Part II Django REST Framework + Ajax
 
 Create a REST API backend and Ajax frontend.
 
-Objectives
+= Objectives =
 
-After completing this assignment, you will be able to...
+After completing this assignment, you will be able to:
 
-Summarize the REST architecture.
-Design and build a REST API.
-Design and build a data-driven JavaScript UI with Ajax.
-Deliverables
+* Summarize the REST architecture.
+* Design and build a REST API.
+* Design and build a data-driven JavaScript UI with Ajax.
+
+= Deliverables =
 
 A Git repo named kanban-django containing at least:
 A README.md file explaining how to run your project.
 A requirements.txt file.
 A Django project.
-Requirements
+
+= Requirements =
 
 No PEP8 or Pyflakes warnings or errors.
-Normal Mode
+
+= How tu run this part=
+
+* Install PostgreSQL wish pg_config (libpq-dev).
+* Add database and user.
+* Edit `kanban/secrets.py`.
+* python manage.py migrate
+* python manage.py createsuperuser
+* python manage.py runserver
+* Open `http://127.0.0.1:8000/admin/`.
+
+== Normal Mode ==
 
 Build a Trello clone using Django REST Framework and Ajax in JavaScript.
 
@@ -52,11 +65,11 @@ You can build the UI using vanilla CSS, Bootstrap, Foundation, Skeleton, LESS, S
 
 You can build the UI using jQuery, React, Angular, Backbone, MithrilJS, Ember, vanilla DOM JavaScript, or anything else of your choosing.
 
-Advanced Mode
+== Advanced Mode ==
 
 For advanced mode, do everything shown above, plus add functional tests and documentation for your API.
 
-Epic Mode
+== Epic Mode ==
 
 Get creative, add features and extra functionality.
 Put the final style and user experience polish on it!
@@ -76,9 +89,10 @@ Please leave additional notes about the assignment here.
 Submit Assignment
 Next in this Path
 
-LESSON
-Configuring Django Apps for Heroku
+= LESSON =
 
 Configuring Django Apps for Heroku
 
 © Copyright 2015-2016 - The Iron Yard
+
+
